@@ -82,6 +82,7 @@ class IndexerExtension implements Extension
                 '/vendor/**/Tests/**/*',
                 '/vendor/**/tests/**/*',
                 '/vendor/composer/**/*',
+                '/var/cache/**/*',
             ],
             self::PARAM_STUB_PATHS => [],
             self::PARAM_INDEXER_POLL_TIME => 5000,
